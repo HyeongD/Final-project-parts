@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "pay",
+    "type": "java.lang.String",
+    "description": "A description for 'pay'"
+  },
+  {
+    "name": "alipay",
+    "type": "java.lang.String",
+    "description": "A description for 'alipay'"
+  },
+  {
+    "name": "appId",
+    "type": "java.lang.String",
+    "description": "A description for 'appId'"
+  },
+  {
+    "name": "notifyUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'notifyUrl'"
+  },
+  {
+    "name": "returnUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'returnUrl'"
+  },
+  {
+    "name": "signType",
+    "type": "java.lang.String",
+    "description": "A description for 'signType'"
+  },
+  {
+    "name": "alipayPublicKey",
+    "type": "java.lang.String",
+    "description": "A description for 'alipayPublicKey'"
+  },
+  {
+    "name": "merchantPrivateKey",
+    "type": "java.lang.String",
+    "description": "A description for 'merchantPrivateKey'"
+  }
+]}
