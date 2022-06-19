@@ -102,7 +102,7 @@ public class PaypalPayoutController {
 			http.setRequestProperty("accept", "application/json");
 			http.setRequestProperty("accept-language", "en-US");
 			http.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
-			http.setRequestProperty("authorization", "Basic QVVydEVXVzc0X1FXVVV5VjVsSjZZNGh1d1RxVk44MFo3dzFEdG5yRkdOYUV0QnJfcWtXN1E1ZHZqeEdQWFNtUEJ0dUtVRVRhWVFnNnl6N2M6RUpPRWFyU2JkeGNVR2pPN0tqcUQ1RnBCaTZmT25uWnNNWTZ4VWJwWndGWE1IUDd2ejFHUDhNZVhBTllUTzhjNWJNSS1iZlRYaWJja0FDRk4=");
+			http.setRequestProperty("authorization", "your authorization");
 			String body="grant_type=client_credentials";
 			
 			//Send request
