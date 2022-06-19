@@ -133,7 +133,7 @@ public class PaypalService {
 				Request req = new Request.Builder()
 				  .url("https://api-m.sandbox.paypal.com/v1/oauth2/token")
 				  .method("POST", body)
-				  .addHeader("Authorization", "Basic QVVydEVXVzc0X1FXVVV5VjVsSjZZNGh1d1RxVk44MFo3dzFEdG5yRkdOYUV0QnJfcWtXN1E1ZHZqeEdQWFNtUEJ0dUtVRVRhWVFnNnl6N2M6RUpPRWFyU2JkeGNVR2pPN0tqcUQ1RnBCaTZmT25uWnNNWTZ4VWJwWndGWE1IUDd2ejFHUDhNZVhBTllUTzhjNWJNSS1iZlRYaWJja0FDRk4=")
+				  .addHeader("Authorization", "your authorization key")// confer to paypal dev
 				  .addHeader("Content-Type", "application/x-www-form-urlencoded")
 				  .build();
 				Response resp = client.newCall(req).execute();
